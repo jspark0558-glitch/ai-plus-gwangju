@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#e2e5e9"/>
+  <!-- head -->
+  <circle cx="200" cy="152" r="62" fill="#8a919b"/>
+  <!-- neck -->
+  <rect x="178" y="200" width="44" height="34" fill="#8a919b"/>
+  <!-- shoulders / torso -->
+  <path d="M200 226
+           c-58 0 -104 34 -118 92
+           c-4 18 -6 40 -6 82
+           h248
+           c0 -42 -2 -64 -6 -82
+           c-14 -58 -60 -92 -118 -92 z" fill="#8a919b"/>
+</svg>
