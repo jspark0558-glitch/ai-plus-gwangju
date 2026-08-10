@@ -1,56 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#bb49e2"/>
       <stop offset="1" stop-color="#7d1ed2"/>
     </linearGradient>
-    <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#57496e"/>
-      <stop offset="1" stop-color="#413353"/>
-    </linearGradient>
-    <radialGradient id="face" cx="0.5" cy="0.38" r="0.75">
-      <stop offset="0" stop-color="#77658f"/>
-      <stop offset="1" stop-color="#5e4d77"/>
-    </radialGradient>
   </defs>
 
-  <rect width="400" height="400" fill="url(#bg)"/>
-
-  <!-- shoulders / suit -->
-  <path d="M60 400
-           c4 -78 40 -126 98 -144
-           c12 13 72 13 84 0
-           c58 18 94 66 98 144 z" fill="url(#suit)"/>
-  <!-- shirt collar -->
-  <path d="M176 252 l24 40 l24 -40
-           c-13 9 -35 9 -48 0 z" fill="#d6c8e8"/>
-  <!-- tie -->
-  <path d="M200 292 l-9 -14 h18 z M200 292 l-10 46 l10 22 l10 -22 z" fill="#3a2d4d"/>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
 
   <!-- neck -->
-  <path d="M180 206 h40 v38 c0 11 -40 11 -40 0 z" fill="#54446c"/>
+  <path d="M462 520 h100 v130 c0 22 -100 22 -100 0 z" fill="#8a8d93"/>
 
   <!-- ears -->
-  <ellipse cx="145" cy="163" rx="9" ry="15" fill="#5e4d77"/>
-  <ellipse cx="255" cy="163" rx="9" ry="15" fill="#5e4d77"/>
+  <ellipse cx="352" cy="425" rx="22" ry="38" fill="#93969c"/>
+  <ellipse cx="672" cy="425" rx="22" ry="38" fill="#93969c"/>
 
   <!-- face -->
-  <path d="M200 88
-           c-33 0 -53 25 -53 61
-           c0 27 10 50 26 62
-           c8 6 17 9 27 9
-           s19 -3 27 -9
-           c16 -12 26 -35 26 -62
-           c0 -36 -20 -61 -53 -61 z" fill="url(#face)"/>
+  <path d="M512 250
+           c-95 0 -152 70 -148 165
+           c3 75 35 135 85 165
+           c20 12 42 18 63 18
+           s43 -6 63 -18
+           c50 -30 82 -90 85 -165
+           c4 -95 -53 -165 -148 -165 z" fill="#9fa2a8"/>
 
   <!-- hair -->
-  <path d="M200 80
-           c-40 0 -60 27 -59 64
-           l7 12
-           c-1 -26 4 -40 14 -49
-           c10 7 24 10 38 10
-           s28 -3 38 -10
-           c10 9 15 23 14 49
-           l7 -12
-           c1 -37 -19 -64 -59 -64 z" fill="#352a47"/>
+  <path d="M348 445
+           C340 265 408 172 512 172
+           C616 172 684 265 676 445
+           C660 352 632 326 512 330
+           C392 326 364 352 348 445 z" fill="#45484e"/>
+
+  <!-- suit shoulders -->
+  <path d="M458 632
+           C380 660 305 695 265 728
+           C195 778 168 868 158 1024
+           L866 1024
+           C856 868 829 778 759 728
+           C719 695 644 660 566 632
+           C550 650 474 650 458 632 z" fill="#54575d"/>
+
+  <!-- shirt collar V -->
+  <path d="M452 640 L572 640 L512 800 z" fill="#e6e8eb"/>
+
+  <!-- tie -->
+  <path d="M512 648 L486 668 L512 692 L538 668 z" fill="#33363b"/>
+  <path d="M500 690 L524 690 L536 770 L512 800 L488 770 z" fill="#33363b"/>
 </svg>
